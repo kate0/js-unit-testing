@@ -16,10 +16,8 @@
   "dependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
-    "gulp": "^3.9.1",
-    "gulp-istanbul": "^0.10.3",
-    "gulp-jasmine": "^2.3.0",
-    "jasmine-reporters": "^2.1.1",
+    "del": "^3.0.0",
+    "lint": "^1.1.2",
     "mocha": "^4.0.1"
   },
   "engines": {
@@ -27,6 +25,12 @@
     "npm": ">=3.10.8"
   },
   "devDependencies": {
-    "eslint": "^2.11.1"
+    "eslint": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^0.10.4",
+    "gulp-jasmine": "^2.4.2",
+    "istanbul": "^0.4.5",
+    "jasmine-reporters": "^2.2.1",
+    "jasmine-spec-reporter": "file:node_modules/jasmine-spec-reporter"
   }
 }

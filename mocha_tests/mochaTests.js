@@ -14,7 +14,7 @@ describe('Array', function() {
     });
 });
 let myPromise = new Promise((resolve, reject) => {
-    setTimeout(function(){
+    setTimeout(function() {
         resolve('Success!');
     }, 250);
 });
@@ -47,8 +47,7 @@ describe('ReadData', function() {
 });
 
 describe('myPromise', function() {
-   it('should return "Success!" eventually', () => {
+   it('That is mocha test', () => {
        expect(myPromise).to.eventually.be.equal('Success!');
    });
 });
-
